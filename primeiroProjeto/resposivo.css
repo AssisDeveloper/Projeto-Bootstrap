@@ -1,0 +1,50 @@
+@media screen and (max-width:760px){
+    *{
+        margin:0;
+        padding:0;
+    }
+    #p{
+        display: none;
+    }
+    #time{
+        justify-items: center;
+        flex-direction: column;
+    }
+    img{
+        height: 50%;
+        width: 50%;
+        flex-direction: column;
+    }
+    #checkbox-menu{
+        direction: solid;
+        justify-content: top;
+    }
+    
+    #form >input{
+        width: 60%;
+        padding-left: 5px;
+        justify-content: start;
+    }
+    #rad{ 
+        width: 50%;
+        display:flex;
+    }
+    #caixa{
+        margin: auto;
+        width: 80%;
+        padding-bottom: 40px;
+    }
+    #caixa >img{
+        display:none;
+    }
+    #video{
+        text-align: center;
+        align-items: center;
+        padding-bottom:10px;
+    }
+    #video >iframe{
+        width:400px;
+        position: flex;
+        align-items: center;
+    }
+}

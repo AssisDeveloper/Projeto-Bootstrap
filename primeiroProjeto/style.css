@@ -1,0 +1,115 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+  #checkbox-menu{
+    position: absolute;
+    opacity: 0;
+  }
+  
+  label{
+    cursor: pointer;
+    position: relative;
+    display: block;
+    height: 22px;
+    width: 30px;
+  }
+  
+  label span{
+    position: absolute;
+    display: block;
+    height: 5px;
+    width: 100%;
+    border-radius: 30px;
+    background: white;
+    transition: 0.25s ease-in-out;
+  } 
+  
+  label span:nth-child(1){
+    top: 0;
+  }
+  
+  label span:nth-child(2){
+    top: 8px;
+  }
+  
+  label span:nth-child(3){
+    top: 16px;
+  }
+  
+  #checkbox-menu:checked + label span:nth-child(1){
+    transform: rotate(-45deg);
+    top: 8px;
+  }
+  
+  #checkbox-menu:checked + label span:nth-child(2){
+    opacity: 0;
+  }
+  
+  #checkbox-menu:checked + label span:nth-child(3){
+    transform: rotate(45deg);
+    top:8px;
+  }
+  nav{
+    
+      background-image:-moz-linear-gradient(to right,red, rgba(0, 0, 0, 0.918) );
+  }
+  #p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 22pt;
+    color: white;
+  }
+  form{
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20pt;
+  }
+  form >input{
+    border-radius: 20px;
+  }
+  #botao{
+    font-size: 15pt;
+    border-radius: 20px;
+    padding: 10px;
+  }
+ #time{
+   background-color: beige;
+  text-align: center;
+  align-items: center;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  }
+  #img{
+  height: 220px;
+  text-align:center;
+  }
+  .card{
+    background-color: rgba(99, 96, 96, 0.226);
+    color: white;
+    border-radius: 20px;
+    color: black;
+  }
+  .btn:hover{
+    background: red;
+    color: black;
+    padding: 10px;
+    border-radius: 20px;
+  }
+  #fundo{
+    background-image: url(torcida.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: white;
+    
+  }
+  #form{
+    width: 55%;
+    background-color: rgba(0, 0, 0, 0.267);
+    background-size: 60%;
+    border-radius: 19px;
+    padding-left: 5px;
+    
+  }

@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="resposivo.css">
+  </head>
+  <body>
+      <header>
+          <nav class="navbar navbar-expand{-xl-md-lg-xl} navbar-light"> 
+              <div class="container">
+                  <img id="foto" class="d-flex justify-align-left" src="índice-removebg-preview.jpeg" width="100">
+                  <p class="navbar-brand text-white" > <!-- navbar-brand = para o nome do projeto, produto ou companhia --> 
+                      Aqui você pode muito mais <br>Venha ser flamengo
+                  </p>
+                  <button class="navbar-toggler" data-toggle="collapse" data-target="#menu-topo">
+                    <input type="checkbox" id="checkbox-menu">
+                    <label for="checkbox-menu">
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                    </label>
+                  </button>
+
+                  <div class="collapse navbar-collapse" id="menu-topo"> <!-- menu --> 
+                    <!-- collapse navbar-collapse = para agrupar e esconder conteudos navbar--> 
+                      <ul class="navbar-nav ml-auto">   <!-- itens menu -->
+                        <!--navbar-nav = para obter uma leve navegação com supote de dropdows-->
+                          <li class="nav-item">
+                                <a href="" class="nav-link text-white">Home</a>
+                            </li>
+                            <li class="nav-item text-white">
+                              <a href="" class="nav-link text-white">Conheça nossa História</a>
+                          </li>
+                          <li class="nav-item">
+                                <a href="" class="nav-link text-white">Conheça nossos produtos</a>
+                            </li>
+                            <!-- Menus dropdowns  -->
+                            <li class="nav-item dropdown">
+                                 <a href="" class="nav-link text-white dropdown-toggle" id="job" role="button" data-toggle="dropdown">Trabalhe conosco</a>
+                                 <div class="dropdown-menu" aria-labelledby="job">
+                                   <a href="" class="dropdown-item">Vagas</a>
+                                   <a href="" class="dropdown-item">Banco de talentos</a>
+                                   <a href="" class="dropdown-item">BootCamps</a>
+                                 </div>
+                            </li>
+
+                            <li class="nav-item">
+                                    <a href="" class="nav-link text-white">Conheça nosso fórum</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="" class="btn bg-dark  ml-4 text-white">Entrar</a>
+                            </li>
+                      </ul> <!-- fim itens menu -->
+                  </div> <!-- fim menu -->
+              </div> <!-- fim container -->
+          </nav> <!-- fim nav -->
+        </header>
+    <section>
+        <div class="container-fluid" id="fundo">
+            <div class="row">
+            <div class="col-md-6" id="inputs">
+              <form class=" col-md-6" id="form">
+              <h1>Inscreva-se</h1>
+              <p>Fique por dentro das novidades e atualizações</p>
+              
+                  <input type="text" placeholder="Digite seu nome" >
+                  <input type="email" placeholder="Digite seu email" class="mt-1">
+                  <p></p>Selecione seu sexo: <br>
+                  <input type="radio" name="sex" id="rad"> Masculino
+                  <input type="radio" name="sex" id="rad" > Feminino </p>
+                  <button class="btn btn-sm bg-primary mb-2" id="botao">Inscreva-se</button>
+                
+              </form>
+            </div>
+              <div class="col-md-6 d-flex">
+                <a href=""><img id="p" src="índice-removebg-preview(3).png" width="400px" alt=""></a>
+              </div>
+            </div>
+            
+            </div>
+        </div>
+    </section>
+
+  
+     <div class="container-fluid" id="time">
+       <div class="row">
+           <h2 class="main-title mt-5">Principais competições </h2>
+            <div class="col-md-3 mt-4">
+              <div class="card" id="caixa">
+                <img src="brao-removebg-preview.jpeg"  alt="Campeonato Brasileiro" class="card-img-top" id="img">
+                <div class="card-body">
+                  <h3 class="card-title">Campeonato Brasileiro</h3>
+                  <p class="card-text">Lorem ipsum dolor sit amet,adipisicing elit. Eaque vitae fugit distinctio </p>
+                  <button class="btn">Saiba Mais</button>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-md-3 mt-4">
+                <div class="card"id="caixa">
+                  <img src="brao-removebg-preview.jpeg" alt="Copa do Brasil"  class="card-img-top" id="img">
+                  <div class="card-body">
+                    <h3 class="card-title">Campeonato Brasileiro</h3>
+                    <p class="card-text">Lorem ipsum dlllllllllllolorcing elit Eaque vitae fugit distinctio reprehender</p>
+                        <button class="btn">Saiba Mais</button>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="col-md-3 mt-4">
+                  <div class="card" id="caixa">
+                    <img src="brao-removebg-preview.jpeg" alt="Libertadores"  class="card-img-top" id="img">
+                    <div class="card-body">
+                      <h3 class="card-title">Campeonato Brasileiro </h3>
+                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque vitae fugit distiptatibus! </p>
+                        <button class="btn">Saiba Mais</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3 mt-4">
+                    <div class="card" id="caixa">
+                      <img src="brao-removebg-preview.jpeg" alt="Libertadores" class="card-img-top" id="img">
+                      <div class="card-body">
+                        <h3 class="card-title">Campeonato Brasileiro </h3>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque vitae fugit distiptatibus! </p>
+                          <button class="btn">Saiba Mais</button>
+                      </div>
+                    </div>
+                  </div>
+         </div>
+       </div>
+     </div>
+    <div class="linha mt-5 text-center bg-warning">
+      <h2>Utimos Jogos</h2>
+    </div>
+
+     <section class="caixa">
+       <div class="container ">
+         <div class="row">
+             <div class="col-md-6 d-flex">
+               <div class="align-self-center">
+                 <h2>LIBERTADORES</h2>
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, consequatur dolorem? Natus unde nulla quos eius libero perspiciatis dolorem. Excepturi harum neque libero hic, vel animi repellendus doloribus non dolore?</p>
+            </div>
+           </div>
+           <div class="col-md-6 mt-5" id="video">
+              <iframe width="560" height="315"  src="https://www.youtube.com/embed/dp12sqaJ2S0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+           </div>
+         </div>
+       </div>
+     </section>
+
+     <section class="caixa">
+       <div class="container">
+         <div class="row">
+           <div class="col-md-6" id="video">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/6PMiloC0a4o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+            <div class="col-md-6 d-flex">
+              <div class="align-self-center">
+                <h2>BRASILEIRÃO</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum recusandae blanditiis nam sed dignissimos. Commodi voluptate voluptas, in vel dicta ipsum harum illum quaerat maiores pariatur aspernatur nobis obcaecati temporibus!</p>
+              </div>
+            </div>
+           </div>
+         </div>
+       </div>
+     </section>
+  <!-- links necessarios senao nao funciona algumas coisas-->  
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>
